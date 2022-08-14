@@ -4,11 +4,41 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Lato', sans-serif;
 }
+
+
+
 section{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+
+}
+h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+p{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.pfp{
+    margin-top: 1.5rem;
+    border-radius:50%;
+}
+a{
+    color:black;
 }
 
+ul li{
+    text-transform: uppercase;
+    margin: 1.5rem;
+}
+
+li{
+    width: 50vh;
+    border: 1px solid black;
+}
