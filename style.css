@@ -42,7 +42,7 @@ ul li{
 }
 
 li{
-    width: 50vh;
+    width: 45vh;
     border: 1px solid black;
     background-color: #FFEEF2;
     color: black;
@@ -51,8 +51,9 @@ li{
 }
 
 footer h2{
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     height: 1rem;
+    margin-top: 20vh;
 }
