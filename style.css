@@ -49,6 +49,10 @@ li{
     border-radius: 20px;
     height: 1.5rem;
 }
+li:hover{
+    background-color: #a4a4a4;
+
+}
 
 footer h2{
     display: flex;
