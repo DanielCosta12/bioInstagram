@@ -1,10 +1,20 @@
 <template>
   <section>
     <ul>
-      <a :href="link" v-for="link in links" v-bind:key="link">
-        <li v-for="nameLink in nameLinks" v-bind:key="nameLink">
-          {{ nameLink }}
-        </li>
+      <a :href="links[0]">
+        <li>{{ nameLinks[0] }}</li>
+      </a>
+      <a :href="links[1]">
+        <li>{{ nameLinks[1] }}</li>
+      </a>
+      <a :href="links[2]">
+        <li>{{ nameLinks[2] }}</li>
+      </a>
+      <a :href="links[3]">
+        <li>{{ nameLinks[3] }}</li>
+      </a>
+      <a :href="links[4]">
+        <li>{{ nameLinks[4] }}</li>
       </a>
     </ul>
   </section>
